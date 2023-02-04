@@ -1,0 +1,17 @@
+.section-four {
+  display: flex;
+  justify-content: center;
+  width: 1205px;
+  /* margin-bottom: 80px; */
+
+  h2 {
+    width: 792px;
+    height: 63px;
+    font-style: $styler-font;
+    font-weight: $font-light;
+    font-size: $font-size-s;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    color: $color-black;
+  }
+}

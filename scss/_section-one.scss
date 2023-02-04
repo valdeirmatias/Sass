@@ -1,0 +1,39 @@
+.section-one {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin-bottom: 50px;
+
+  h1 {
+    font-style: $styler-font;
+    font-weight: $font-regular;
+    font-size: 76px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: $color-black;
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: $font-light;
+    font-size: $font-size-s;
+    line-height: 1.3em;
+    letter-spacing: 0.05em;
+    color: $color-black;
+    margin-bottom: $m-b-m;
+  }
+
+  button {
+    width: 150px;
+    height: 50px;
+    border: 1px solid $color-black;
+    background: $color-white;
+  }
+
+  button:hover {
+    background: $color-black;
+    color: $color-white;
+  }
+}

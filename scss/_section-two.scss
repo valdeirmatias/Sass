@@ -1,0 +1,17 @@
+.section-two {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  margin-bottom: $m-b-l;
+
+  h2 {
+    width: 704px;
+    height: 63px;
+    font-style: $styler-font;
+    font-weight: $font-light;
+    font-size: $font-size-s;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    color: $color-black;
+  }
+}

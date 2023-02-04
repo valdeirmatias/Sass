@@ -1,0 +1,9 @@
+.section-three {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  width: 1200px;
+  margin-bottom: $m-b-l;
+  border-radius: 2px;
+}

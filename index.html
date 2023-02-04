@@ -11,130 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap"
       rel="stylesheet"
     />
+    <!-- STYLER -->
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Energia Sustentável</title>
-
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-      }
-      body {
-        font-family: "Inter", sans-serif;
-      }
-      article {
-        width: 1200px;
-        margin: 0 auto;
-        /* background-color: blanchedalmond; */
-      }
-
-      section {
-        display: flex;
-        flex-direction: column;
-        width: 1200px;
-        margin-bottom: 50px;
-      }
-
-      h1 {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 40px;
-        letter-spacing: 0.05em;
-        text-transform: uppercase;
-        color: #131313;
-        margin-top: 50px;
-        margin-bottom: 15px;
-      }
-
-      p {
-        font-style: normal;
-        font-weight: 300;
-        font-size: 25px;
-        line-height: 1.5em;
-        letter-spacing: 0.05em;
-        color: #131313;
-        margin-bottom: 20px;
-      }
-
-      button {
-        width: 150px;
-        height: 50px;
-        border: 1px solid #000000;
-        background: #fff;
-      }
-      .hero {
-        width: 1200px;
-        height: 462px;
-        background: url(images/hero.png), #e5e5e5;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-      }
-      .section-3 {
-        width: 1200px;
-        height: 143px;
-      }
-      .section-3 > h2 {
-        width: 704px;
-        height: 63px;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 24px;
-        line-height: 29px;
-        letter-spacing: 0.05em;
-        color: #131313;
-      }
-
-      .section-4 {
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-        justify-content: center;
-        width: 1200px;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        border-radius: 2px;
-      }
-
-      .rect--1,
-      .rect--2,
-      .rect--3 {
-        width: 312px;
-        height: 214px;
-        top: 8px;
-      }
-
-      .rect--1 {
-        background: url(images/Rectangle-1.png), #d9d9d9;
-      }
-
-      .rect--2 {
-        background: url(images/Rectangle-2.png), #d9d9d9;
-      }
-
-      .rect--3 {
-        background: url(images/Rectangle-3.png), #d9d9d9;
-      }
-
-      .section-5 {
-        width: 1205px;
-        height: 175px;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-      }
-
-      .section-5 > h2 {
-        width: 792px;
-        height: 63px;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 24px;
-        line-height: 29px;
-        letter-spacing: 0.05em;
-
-        color: #000000;
-      }
-    </style>
   </head>
   <body>
     <article>
-      <section>
+      <section class="section-one">
         <h1>ENERGIA SUSTENTÁVEL</h1>
         <p>
           Somos uma comunidade de praticantes de sustentabilidade que visam
@@ -142,24 +25,38 @@
         </p>
         <button>SOBRE NÓS</button>
       </section>
-      <section class="hero"></section>
-      <section class="section-3">
+      <section class="hero">
+        <img src="images/hero.png" alt="energia sustentável" />
+      </section>
+      <section class="section-two">
         <h2>
           Trabalhamos para trazer as melhores soluções para enfrentar os
           desafios ambientais globais
         </h2>
       </section>
-      <section class="section-4">
-        <div class="rect--1"></div>
-        <div class="rect--2"></div>
-        <div class="rect--3"></div>
+      <section class="section-three">
+        <div class="rect-one">
+          <img src="images/Rectangle-1.png" alt="soluções sustentáveis" />
+        </div>
+        <div class="rect-two">
+          <img src="images/Rectangle-2.png" alt="soluções sustentáveis" />
+        </div>
+        <div class="rect-three">
+          <img src="images/Rectangle-3.png" alt="soluções sustentáveis" />
+        </div>
       </section>
-      <section class="section-5">
+      <section class="section-four">
         <h2>
           Somos inspirados pelo bem que fazemos e agimos para tirar o melhor
           proveito das práticas sustentáveis
         </h2>
       </section>
+      <footer>
+        <p class="copy">
+          Copyright &copy; 2027 by sustentável, Inc. Todos os direitos
+          reservados.
+        </p>
+      </footer>
     </article>
   </body>
 </html>

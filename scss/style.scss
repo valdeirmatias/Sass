@@ -1,4 +1,33 @@
-@import 'vars';
-@import 'reset';
-@import 'blocks';
-@import 'monsters';
+@import "variables";
+@import "section-one";
+@import "section-two";
+@import "section-three";
+@import "section-four";
+@import "footer";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1200px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+
+.hero {
+  width: 1200px;
+  height: 462px;
+  /* background: url(images/hero.png), #e5e5e5; */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 80px;
+}
+
+.rect-one,
+.rect-two,
+.rect-three {
+  width: 312px;
+  height: 214px;
+  top: 8px;
+}

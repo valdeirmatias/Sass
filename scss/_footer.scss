@@ -1,0 +1,13 @@
+footer {
+  display: flex;
+  justify-content: center;
+  width: 1202px;
+  margin-bottom: $m-b;
+  margin-top: $m-t;
+
+  .copy {
+    font-style: normal;
+    font-weight: $font-regular;
+    font-size: 12px;
+  }
+}
